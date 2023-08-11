@@ -750,7 +750,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   overflow: hidden;
 }
 
-.form-group .form-help:focus {
+.form-group .form-help:focus-within {
   max-height: 20rem;
   margin: .4rem 0 0;
 }
