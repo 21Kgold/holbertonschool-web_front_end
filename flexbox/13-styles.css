@@ -613,11 +613,11 @@
     }
 
     .tag-list li::after {
-        counter-reset: ", ";
+        content: ", ";
     }
 
     .tag-list li:last-child::after {
-        counter-reset: "";
+        content: "";
     }
 
 
