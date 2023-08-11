@@ -720,7 +720,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   background-color: var(--color-white);
 }
 
-.form-group:focus {
+.form-group:focus-within {
   background-color: var(--color-light-grey);
   transition: .3s;
 }
