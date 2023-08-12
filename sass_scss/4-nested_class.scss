@@ -1,8 +1,7 @@
 /* SCSS Nested class example */
 body {
     color: #3D3D3D;
-}
-
-    & .red {
+    .red {
         color: #FF000;
     }
+}
