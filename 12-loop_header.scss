@@ -1,4 +1,4 @@
-/* SCSS Create heading tags using @for */
+/* SCSS - Create heading tags using @for */
 
 @for $i from 1 through 5 {
   h#{$i} {
