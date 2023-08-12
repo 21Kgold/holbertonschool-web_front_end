@@ -1,0 +1,19 @@
+/* My color and background */
+
+/* Variables */
+$myColor: #3D3D3D;
+$myBackground: #6D6D6D;
+
+/* Styling */
+body {
+    color: $myColor;
+    background-color: $myBackground;
+}
+
+p {
+    color: $myColor;
+}
+
+h2 {
+    background-color: $myBackground;
+}
