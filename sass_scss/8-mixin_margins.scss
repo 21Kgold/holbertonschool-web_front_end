@@ -1,0 +1,18 @@
+/* SCSS Reusable style @mixin example */
+@mixin bodyStyle {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@mixin divStyle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+body {
+    @include bodyStyle;
+     }
+  
+  div {
+    @include divStyle;
+     }
