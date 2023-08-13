@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    color: white;
+}
+
+.box1 {
+    width: 50%;
+    background-color: aquamarine;
+    font-size: 1rem;
+}
+
+.box2 {
+    width: 75%;
+    font-size: 2rem;
+    background-color: cornflowerblue;
+}
+
+.box3 {
+    width: 100%;
+    font-size: 3rem;
+    background-color: darkslategray;
+}
+
+.box4 {
+    width: 75%;
+    background-color: blueviolet;
+    font-size: 2rem;
+}
+
+.box5 {
+    width: 50%;
+    background-color: rgb(235, 138, 48);
+    font-size: 1rem;
+}
+
+.box {
+    aspect-ratio: 2/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
