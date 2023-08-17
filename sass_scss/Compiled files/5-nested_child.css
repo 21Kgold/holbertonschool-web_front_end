@@ -1,0 +1,7 @@
+/* SCSS Pseudo class selector nesting example */
+body {
+  color: #3D3D3D;
+}
+body > .red {
+  color: #FF0000;
+}/*# sourceMappingURL=5-nested_child.css.map */

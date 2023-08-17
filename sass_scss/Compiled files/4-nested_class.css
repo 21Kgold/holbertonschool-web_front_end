@@ -1,0 +1,7 @@
+/* SCSS Nested class example */
+body {
+  color: #3D3D3D;
+}
+body .red {
+  color: #FF0000;
+}/*# sourceMappingURL=4-nested_class.css.map */
