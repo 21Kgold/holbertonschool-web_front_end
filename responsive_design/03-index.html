@@ -7,7 +7,7 @@
     <meta name="description" content="Description of the page less than 150 characters">
     <link rel="icon" type="image/png" href="images/favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='02-1-styles.css'>
+    <link rel='stylesheet' href='03-styles.css'>
   </head>
   <body>
     <!– Header –>
@@ -131,7 +131,15 @@
                 <article class="card-work">
                   <div class="card-outer">
                     <div class="card-image">
-                      <img src="images/pic-work-01.jpg" alt="">
+                        <img
+                        sizes="(max-width: 1200px) 100vw, 1200px"
+                        srcset="
+                        images/pic-work-01_fe5tcp_c_scale,w_380.jpg 380w,
+                        images/pic-work-01_fe5tcp_c_scale,w_1019.jpg 1019w,
+                        images/pic-work-01_fe5tcp_c_scale,w_1200.jpg 1200w"
+                        src="images/pic-work-01_fe5tcp_c_scale,w_1200.jpg"
+                        alt="">
+                      <!-- <img src="images/pic-work-01.jpg" alt=""> -->
                     </div>
                     <div class="card-inner">
                       <h3 class="card-title"><a href="#">Interior Design</a></h3>
@@ -143,7 +151,15 @@
                 <article class="card-work">
                   <div class="card-outer">
                     <div class="card-image">
-                      <img src="images/pic-work-02.jpg" alt="">
+                      <img
+                        sizes="(max-width: 1200px) 100vw, 1200px"
+                        srcset="
+                        images/pic-work-02_kls7kw_c_scale,w_380.jpg 380w,
+                        images/pic-work-02_kls7kw_c_scale,w_856.jpg 856w,
+                        images/pic-work-02_kls7kw_c_scale,w_1200.jpg 1200w"
+                        src="images/pic-work-02_kls7kw_c_scale,w_1200.jpg"
+                        alt="">
+                      <!--<img src="images/pic-work-02.jpg" alt="">-->
                     </div>
                     <div class="card-inner">
                       <h3 class="card-title"><a href="#">Web Development</a></h3>
@@ -155,7 +171,15 @@
                 <article class="card-work">
                   <div class="card-outer">
                     <div class="card-image">
-                      <img src="images/pic-work-03.jpg" alt="">
+                      <img
+                        sizes="(max-width: 1200px) 100vw, 1200px"
+                        srcset="
+                        images/pic-work-03_drmuje_c_scale,w_380.jpg 380w,
+                        images/pic-work-03_drmuje_c_scale,w_945.jpg 945w,
+                        images/pic-work-03_drmuje_c_scale,w_1200.jpg 1200w"
+                        src="images/pic-work-03_drmuje_c_scale,w_1200.jpg"
+                        alt="">
+                      <!--<img src="images/pic-work-03.jpg" alt="">-->
                     </div>
                     <div class="card-inner">
                       <h3 class="card-title"><a href="#">Personal Development</a></h3>
@@ -177,7 +201,16 @@
           <div class="section-body">
             <div class="row">
               <div class="col-1-2">
-                <img src="images/pic-about-01.jpg" alt="" width="460" height="460">
+                <img
+                    sizes="(max-width: 3000px) 40vw, 1200px"
+                    srcset="
+                    images/woman_glasses_c_scale,w_380.jpg 380w,
+                    images/woman_glasses_c_scale,w_992.jpg 992w,
+                    images/woman_glasses_c_scale,w_1200.jpg 1200w"
+                    src="images/woman_glasses_c_scale,w_1200.jpg"
+                    alt="">
+                    
+                <!--  <img src="images/pic-about-01.jpg" alt="" width="460" height="460"> -->
               </div>
               <div class="col-1-2">
                 <h3>Who are we</h3>
