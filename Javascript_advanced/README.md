@@ -79,15 +79,15 @@ To use vanilla JavaScript, you simply write JavaScript code without relying on a
 
 * Test the the code using vanilla JavaScript.
 
-<p text-align="center">
+<p style="text-align:center;">
   <img src="./images/spooky.png" alt="Spooky mode">
 </p>
 
-<p text-align="center">
+<p style="text-align:center;">
   <img src="./images/dark.png" alt="Dark mode">
 </p>
 
-<p text-align="center">
+<p style="text-align:center;">
   <img src="./images/scream.png" alt="Scream mode">
 </p>
 
