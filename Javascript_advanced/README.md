@@ -79,8 +79,8 @@ To use vanilla JavaScript, you simply write JavaScript code without relying on a
 
 * Test the the code using vanilla JavaScript.
 <p align="center">
-  <img src="./images/spooky.png" alt="Spooky mode"/>
-  <img src="./images/dark.png" alt="Dark mode">
+  <img src="./images/spooky.png" alt="Spooky mode"/> <br>
+  <img src="./images/dark.png" alt="Dark mode"> <br>
   <img src="./images/scream.png" alt="Scream mode"/>
 </p>
 
