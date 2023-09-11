@@ -73,7 +73,7 @@ The Document Object Model (DOM) is the data representation of the objects that c
 
 * Create and return a function that, when called, will update the styling of the document.body element based on the provided parameters (values) for size, weight, transform, background, and color.
 
-* Create a function that create a pharagraph and three buttons included in a html document. Inside this function include three closures of the previus function whith different parameters values. When clicked each button apply a different style (closure) to the html document.
+* Create a function that create a pharagraph and three buttons included in a html document. Inside this function include three closures of the previous function whith different parameters values. When clicked each button apply a different style (closure) to the html document.
 
 To use vanilla JavaScript, you simply write JavaScript code without relying on any additional libraries or frameworks. Vanilla JavaScript refers to using pure, plain JavaScript to accomplish tasks without the need for external dependencies. Start by creating an HTML file and include a script tag, where you'll write your JavaScript code.
 
@@ -82,6 +82,11 @@ To use vanilla JavaScript, you simply write JavaScript code without relying on a
   <img src="./images/spooky.png" alt="Spooky mode"/> <br>
   <img src="./images/dark.png" alt="Dark mode"> <br>
   <img src="./images/scream.png" alt="Scream mode"/>
+</p>
+
+* Alternatively, we can test our code as a snippet in dev tools.
+<p align="center">
+  <img src="./images/Snippet.png" alt="Spooky mode"/>
 </p>
 
 
