@@ -1,5 +1,5 @@
 function createClassRoom (numbersOfStudents) {
-    
+
     function studentSeat (seat) {
         return function () {
             return seat;
@@ -13,10 +13,10 @@ function createClassRoom (numbersOfStudents) {
     return students;
 }
 
-let classRoom = createClassRoom(10);
+const classRoom = createClassRoom(10);
 
 // Access the [x] element of the array that classRoom function returns
-console.log(classRoom[0]()); 
+console.log(classRoom[0]());
 console.log(classRoom[3]());
 console.log(classRoom[9]());
 
