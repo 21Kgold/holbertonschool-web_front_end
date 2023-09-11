@@ -14,8 +14,7 @@ function countPrimeNumbers() {
 }
 
 // time needed to execute the function
-const startTime = performance.now();
+const t0 = performance.now();
 countPrimeNumbers();
-const endTime = performance.now();
-const executionTime = endTime - startTime;
-console.log ("Execution time of printing countPrimeNumbers was " + executionTime, "milliseconds.");
+const t1 = performance.now();
+console.log (`Execution time of printing countPrimeNumbers was ${t1 - t0} milliseconds.`);
