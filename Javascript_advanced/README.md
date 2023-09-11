@@ -78,15 +78,9 @@ The Document Object Model (DOM) is the data representation of the objects that c
 To use vanilla JavaScript, you simply write JavaScript code without relying on any additional libraries or frameworks. Vanilla JavaScript refers to using pure, plain JavaScript to accomplish tasks without the need for external dependencies. Start by creating an HTML file and include a script tag, where you'll write your JavaScript code.
 
 * Test the the code using vanilla JavaScript.
-
-![Spooky mode](./images/spooky.png)
-
-<img
-  src="./images/dark.png"
-  alt="Dark mode"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
-
 <p align="center">
+  <img src="./images/spooky.png" alt="Spooky mode"/>
+  <img src="./images/dark.png" alt="Dark mode">
   <img src="./images/scream.png" alt="Scream mode"/>
 </p>
 
