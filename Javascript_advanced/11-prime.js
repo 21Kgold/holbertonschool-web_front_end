@@ -14,23 +14,25 @@ function countPrimeNumbers() {
     return count;
 }
 
-function display() {
-    console.log (`Execution time of calculating prime numbers 100 times was ${t2 - t0} milliseconds.`);
-}
-
-setTimeout(display, 0); // Delayed by 0 milliseconds
-
 // time needed to execute the function 100 times
 const t0 = performance.now();
-//console.log("t0 " + t0);
+// console.log("t0 " + t0);
 
 for (let i = 0; i < 100; i++) {
-    countPrimeNumbers();
+    setTimeout(countPrimeNumbers, 0)
 }
 
-const t2 = performance.now();
-//console.log("t2 " + t2);
+setTimeout(() => {
+    const t1 = performance.now();
+    // console.log("t1 " + t1);
+    const executionTime = t1 - t0;
+    console.log (`Execution time of calculating prime numbers 100 times was ${executionTime} milliseconds.`);
+}, 0);
 
 /*
-Execution time of calculating prime numbers 100 times was 3.100000023841858 milliseconds.
+Console output when console.log are not commented
+t0 22104263.199999988
+25 (100 times)
+t1 22104270.399999976
+Execution time of calculating prime numbers 100 times was 4.399999976158142 milliseconds.
 */
