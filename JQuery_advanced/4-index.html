@@ -20,6 +20,12 @@
                 $("tbody tr:nth-child(3) td:nth-child(1)").text("Antoine");
             }
 
+            function replaceFamilyTree() {
+                $("tbody tr").remove();
+                $("tbody").append($("<tr>"));
+                $("tbody tr").append($("<td>").text("Gerard"), $("<td>").text("Bonissa"));
+            }
+
             $(function(){
                 createFamilyTree();
                 replaceFamilyTree();
