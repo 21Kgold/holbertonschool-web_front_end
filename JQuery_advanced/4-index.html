@@ -22,8 +22,7 @@
 
             function replaceFamilyTree() {
                 $("tbody tr").remove();
-                $("tbody").append($("<tr>"));
-                $("tbody tr").append($("<td>").text("Gerard"), $("<td>").text("Bonissa"));
+                $("tbody").html("<tr><td>Gerard</td><td>Bonissa</td></tr>");
             }
 
             $(function(){
