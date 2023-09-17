@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> <!-- left-to-right language -->
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>jQuery advanced</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+        <script  type="application/javascript">
+            function createSearchForm() {
+                $("body").append(
+                    $("<input>").attr("type", "text"),
+                    $("<input>").attr("type", "submit").click(function() {
+                        queryWikipedia($("input:nth-of-type(1)").val());}),
+                    $("<ul>")
+                );
+            }
+
+            function addNewArticle(id, title, snippet) {
+                $("ul").append(
+                    $("<li>" + "<p>" + "<span>" + id + "-" + "</span>" + "<b>" + title + "</b>" + "</p>" 
+                             + "<p>" + snippet + "</p>" + "</li>"));
+            }
+
+            function queryWikipedia(search) {
+                var url = "https://en.wikipedia.org/w/api.php";
+                var params = {
+                    action: "query",
+                    list: "search",
+                    srsearch: search,
+                    format: "json"
+                };
+
+                url = url + "?origin=*";
+                Object.keys(params).forEach(function(key){url += "&" + key + "=" + params[key];});
+
+                fetch(url)
+                    .then(function(response){return response.json();})
+                    .then(function(response) {
+                        response.query.search.forEach(function ({ pageid, title, snippet }) {
+                            addNewArticle(pageid, title, snippet);
+                        })
+                    })
+                    .catch(function(error){console.log(error);});
+            }
+            
+            $(function(){
+                createSearchForm()
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+    </body>
+
+</html>
